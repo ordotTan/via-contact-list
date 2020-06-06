@@ -1,0 +1,20 @@
+.drivers {
+  .driver-list {
+    margin-top: 150px;
+    justify-content: center;
+  }
+  .system-msg {
+    margin-top:200px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 80px;
+  }
+}
+
+@media (max-width: 450px) {
+  .drivers {
+    .driver-list {
+      margin-top: 190px;
+    }
+  }
+}

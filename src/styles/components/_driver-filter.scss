@@ -1,0 +1,55 @@
+.filter {
+  margin-top: 20px;
+  .MuiFormControl-root {
+    position: relative;
+  }
+  .MuiInputLabel-outlined {
+    color: rgba(0, 0, 0, 0.26);
+    margin-bottom: 10px;
+    &.Mui-focused {
+      background-color:$clr2;
+      padding: 7px;
+      border-radius: 15px;
+    }
+  }
+
+  .MuiOutlinedInput-input {
+    padding: 16px;
+  }
+
+  .MuiInputBase-formControl {
+    background-color:$clr2;
+    border-radius: 20px;
+    width: 400px;
+  }
+  .MuiSvgIcon-root {
+    position: relative;
+    top: 13px;
+    right: 35px;
+  }
+}
+
+@media (max-width: 660px) {
+  .filter {
+    .MuiInputBase-formControl {
+      width: 300px
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .filter {
+    .MuiInputBase-formControl {
+      width: 200px
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .filter {
+    .MuiInputBase-formControl {
+      width:320px;
+    }
+  }
+}
+
